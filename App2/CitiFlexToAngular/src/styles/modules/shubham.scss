@@ -1,0 +1,15 @@
+.shubham-wrapper{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: burlywood;
+    text-align: center;
+    .shubham-heading{
+        font-size: 30px;
+        color: black;
+    }
+    .car-img{
+        width: 100%;
+        height: 300px;
+        background-image:linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+    }
+}

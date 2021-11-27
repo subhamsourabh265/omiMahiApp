@@ -1,0 +1,41 @@
+::selection{
+    background:red;
+}
+.nav-bar{
+    display: flex;
+    background: #0e0d0d;
+    ul{
+        padding: 20px;
+        margin: 0 0 0 0 !important;
+        &.active{
+            &:hover{
+                color:white !important; 
+                border: none;
+            }
+            &:focus{
+                outline: 0;
+            }
+            background: blue; 
+            cursor: pointer;
+            border: none;
+            color:#1976d2 !important;
+        }
+        &:hover{
+            background: blue; 
+            cursor: pointer;  
+        }
+        
+        a{
+            color:white !important;
+            &:hover{
+                color:white !important; 
+            }
+            &.active{
+                &:hover{
+                    color:white !important; 
+                }
+                color:#1976d2 !important;
+            }
+        }
+    }
+}

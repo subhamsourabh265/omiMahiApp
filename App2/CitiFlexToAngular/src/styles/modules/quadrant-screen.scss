@@ -1,0 +1,14 @@
+.quadrant-screen-wrapper{
+    .quadrant-heading{
+        color: burlywood;
+    }
+    .quadrant-row{
+        display: flex;
+        flex-wrap: wrap;
+        .quadrant-box{
+            width: 500px;
+            height: 500px;
+            border: 1px solid brown;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.mahi-wrapper{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(44, 197, 13);
+    text-align: center;
+    .mahi-heading{
+        font-size: 30px;
+        color: black;
+    }
+    .car-img{
+        width: 100%;
+        height: 200px;
+        background-image:linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+    }
+}
